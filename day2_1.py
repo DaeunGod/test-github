@@ -125,5 +125,26 @@ class Abc:
     pass
 
 
-class_a = Abc()
-class_a.print()
+#class_a = Abc()
+#class_a.print()
+
+#class 상속
+class BCd:
+    def abc(self):
+        print("abc")
+    pass
+
+class BCd2:
+    def abc(self):
+        print("abc2")
+    pass
+
+class CDE(BCd, BCd2):
+    pass
+
+class DEF(BCd, CDE):
+    pass
+
+d = DEF()
+c.abc()
+
