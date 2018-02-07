@@ -10,3 +10,7 @@ a = 4
 b = 2
 calc = Calculator()
 print(calc.sum(a, b))
+
+str = "github"
+b = 10
+a = 2
